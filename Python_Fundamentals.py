@@ -114,13 +114,92 @@
 #     print("Fail")
 
 
+
+
+
+
+
 #Login System
 
-username = input("Enter username: ")
-password = input("Enter password: ")
+# username = input("Enter username: ")
+# password = input("Enter password: ")
 
-if username == "admin" and password == "python123":
-    print("Login Successful")
+# if username == "admin" and password == "python123":
+#     print("Login Successful")
 
-else:
-    print("Invalid credentials")
+# else:
+#     print("Invalid credentials")
+
+
+
+
+
+
+#Truth Table
+
+#AND
+# | A     | B     | Result |
+# | ----- | ----- | ------ |
+# | True  | True  | True   |
+# | True  | False | False  |
+# | False | True  | False  |
+# | False | False | False  |
+
+#OR
+# | A     | B     | Result |
+# | ----- | ----- | ------ |
+# | True  | True  | True   |
+# | True  | False | True   |
+# | False | True  | True   |
+# | False | False | False  |
+
+# age = int(input("Enter age: "))
+# citizen = input("Enter citizenship (yes/no): ")
+
+# if age>=18 and citizen == "yes":
+#     print("Eligible to vote")
+
+# else:
+#     print("Not eligible")
+
+
+
+
+
+
+
+
+
+#Password Validator
+
+# password = input("Enter password (must contain number): ")
+
+# if len(password) >= 8 and any(char.isdigit() for char in password):
+#     print("Valid password")
+# else:
+#     print("Weak password")
+
+
+
+
+
+
+
+# for i in range(5):
+#     print("Hello")
+
+#range(5) --> 0 1 2 3 4
+#range(2, 6) --> 2 3 4 5
+#range(start, end, step) --> range(1, 10, 2) --> 1 3 5 7 9
+
+#Print number 1 to 10
+
+# for i in range(1, 11):
+#     print(i)
+
+
+#Multiplication table
+num = int(input("Enter number: "))
+
+for i in range(1, 11):
+    print(num, "x", i, "=", num*i)
