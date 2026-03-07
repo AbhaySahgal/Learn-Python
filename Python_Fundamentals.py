@@ -199,7 +199,65 @@
 
 
 #Multiplication table
-num = int(input("Enter number: "))
+# num = int(input("Enter number: "))
 
-for i in range(1, 11):
-    print(num, "x", i, "=", num*i)
+# for i in range(1, 11):
+#     print(num, "x", i, "=", num*i)
+
+
+
+
+
+
+
+#Creating a List
+
+# numbers = [10, 20, 30, 40, 50]
+
+# for num in numbers:
+#     print(num)
+
+
+# shopping = []
+
+# for i in range(3):
+#     item = input("Enter item: ")
+#     shopping.append(item)
+
+# print("\nShopping List: ")
+
+# for item in shopping:
+#     print(item)
+
+
+
+
+
+
+
+#Dictionaries
+#Dictionaries store data in key-value pairs
+
+# student = {
+#     "name" : "Abhay",
+#     "age" : 25,
+#     "marks" : 95,
+# }
+
+# for key in student:
+#     print(key, student[key])
+
+#Creating Student Database program
+
+student= {}
+
+student["name"] = input("Enter name: ")
+student["age"] = input("Enter age: ")
+student["marks"] = input("Enter marks: ")
+
+
+print("\nStudent Record: ")
+
+print("Name:", student["name"])
+print("Age:", student["age"])
+print("Marks:", student["marks"])
