@@ -249,15 +249,15 @@
 
 #Creating Student Database program
 
-student= {}
+# student= {}
 
-student["name"] = input("Enter name: ")
-student["age"] = input("Enter age: ")
-student["marks"] = input("Enter marks: ")
+# student["name"] = input("Enter name: ")
+# student["age"] = input("Enter age: ")
+# student["marks"] = input("Enter marks: ")
 
 
-print("\nStudent Record: ")
+# print("\nStudent Record: ")
 
-print("Name:", student["name"])
-print("Age:", student["age"])
-print("Marks:", student["marks"])
+# print("Name:", student["name"])
+# print("Age:", student["age"])
+# print("Marks:", student["marks"])
