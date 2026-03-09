@@ -2,6 +2,9 @@
 #It allows you to write loops in one line.
 
 
+#List comprehension -> [x for x in list if x>5]
+
+
 #Create a list of squares
 #From normal loops
 
