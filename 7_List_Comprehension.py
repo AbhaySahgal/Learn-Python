@@ -16,8 +16,24 @@
 
 
 
+
+
 #Same from List Comprehension
 
-numbers = [1, 2, 3, 4, 5]
-squares = [n*n for n in numbers]
-print(squares)
+# numbers = [1, 2, 3, 4, 5]
+# squares = [n*n for n in numbers]
+# print(squares)
+
+
+
+#Create a numbers divisible by 10
+
+number = [10, 15, 20, 25, 30]
+
+div = []
+
+for i in number:
+    if i%10 == 0:
+        div.append(i)
+        
+print("Divisible by 10: ", div)
