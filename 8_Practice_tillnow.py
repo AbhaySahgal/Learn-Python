@@ -114,17 +114,55 @@
 
 #Solution
 
-a = int(input("Enter Value of a: "))
-b = int(input("Enter Value of b: "))
+# a = int(input("Enter Value of a: "))
+# b = int(input("Enter Value of b: "))
 
-try:
-    def divide(a, b):
-        return a/b
-except ZeroDivisionError:
-    print("Can not Divide by 0")
+# try:
+#     def divide(a, b):
+#         return a/b
+# except ZeroDivisionError:
+#     print("Can not Divide by 0")
 
-except ValueError:
-    print("Invalid value")
+# except ValueError:
+#     print("Invalid value")
 
 
-print("Division of a and b is: ", divide(a,b))
+# print("Division of a and b is: ", divide(a,b))
+
+
+
+
+
+
+
+
+# 4️⃣ Word Counter (File Handling)
+
+# Given a file notes.txt.
+
+# Program should print:
+
+# Total words in file: 120
+
+# Hint
+
+# read()
+# split() -> used to split Characters into words.
+# len()
+
+#Solution
+
+# with open("notes.txt", "r") as file:
+#     content = file.read()
+#     words = content.split()
+#     print("Total words in file: ", len(words))
+
+
+
+
+
+
+
+
+
+
