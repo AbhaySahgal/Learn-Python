@@ -38,3 +38,48 @@
 
 
 
+
+# 2️⃣ Student Grade System
+
+# Create a dictionary:
+
+# students = {
+#     "Abhay": 85,
+#     "Rahul": 65,
+#     "Neha": 92
+# }
+
+# Print grade:
+
+# 90+  → A
+# 75-89 → B
+# 60-74 → C
+# <60 → Fail
+
+# Output example
+
+# Abhay : B
+# Rahul : C
+# Neha : A
+
+students = {
+    "Abhay" : 85,
+    "Rahul" : 65,
+    "Neha" : 92,
+}
+
+for name, marks in students.items():
+
+    if marks >=90:
+        grade = "A"
+    elif marks >= 75:
+        grade = "B"
+    elif marks >= 60:
+        grade = "C"
+    else:
+        grade = "Fail"
+
+    print(name, ":", grade)
+
+
+
