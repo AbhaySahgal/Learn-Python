@@ -26,14 +26,31 @@
 
 
 
+
+
 #Create a numbers divisible by 10
 
-number = [10, 15, 20, 25, 30]
+# number = [10, 15, 20, 25, 30]
 
-div = []
+# div = []
 
-for i in number:
-    if i%10 == 0:
-        div.append(i)
+# for i in number:
+#     if i%10 == 0:
+#         div.append(i)
         
-print("Divisible by 10: ", div)
+# print("Divisible by 10: ", div)
+
+
+
+
+
+#World Length Analyzer
+
+words = ["python", "developer", "ai", "code"]
+
+leng = []
+
+for i in words:
+    leng.append(len(i))
+
+print(leng)
