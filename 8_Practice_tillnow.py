@@ -166,3 +166,37 @@
 
 
 
+# 5️⃣ Shopping List Manager
+
+# Program should:
+
+# ask user to enter 5 items
+
+# store them in a list
+
+# print items alphabetically
+
+# Example output
+
+# Shopping list:
+# bread
+# eggs
+# milk
+# rice
+# tea
+
+#Solution
+
+shoppinglist = []
+
+for i in range(5):
+    item =  input("Enter items: ")
+    shoppinglist.append(item)
+
+shoppinglist.sort()
+
+print("Shopping list: ")
+
+for item in shoppinglist:
+    print(item)
+
