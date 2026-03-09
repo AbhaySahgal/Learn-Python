@@ -23,6 +23,7 @@
 # Ask user for a number n.
 # Create a list of all even numbers from 1 to n using list comprehension.
 
+#Solution
 # num = int(input("Enter number: "))
 
 # evenlist = []
@@ -62,24 +63,68 @@
 # Rahul : C
 # Neha : A
 
-students = {
-    "Abhay" : 85,
-    "Rahul" : 65,
-    "Neha" : 92,
-}
+#Solution 
 
-for name, marks in students.items():
+# students = {
+#     "Abhay" : 85,
+#     "Rahul" : 65,
+#     "Neha" : 92,
+# }
 
-    if marks >=90:
-        grade = "A"
-    elif marks >= 75:
-        grade = "B"
-    elif marks >= 60:
-        grade = "C"
-    else:
-        grade = "Fail"
+# # .items() returns key and value together
 
-    print(name, ":", grade)
+# for name, marks in students.items():
+    
+#     if marks >= 90:
+#         grade = "A"
+
+#     elif marks >= 75:
+#         grade = "B"
+    
+#     elif marks >= 60:
+#         grade = "C"
+#     else:
+#         grade = "Fail"
+
+#     print(name, ":", grade)
 
 
 
+
+
+
+# 3️⃣ Safe Division Function
+
+# Create a function:
+
+# def divide(a, b)
+
+# Handle errors:
+
+# division by zero
+
+# invalid input
+
+# Example
+
+# Enter numbers: 10 0
+# Error: cannot divide by zero
+
+# Use try/except.
+
+#Solution
+
+a = int(input("Enter Value of a: "))
+b = int(input("Enter Value of b: "))
+
+try:
+    def divide(a, b):
+        return a/b
+except ZeroDivisionError:
+    print("Can not Divide by 0")
+
+except ValueError:
+    print("Invalid value")
+
+
+print("Division of a and b is: ", divide(a,b))
