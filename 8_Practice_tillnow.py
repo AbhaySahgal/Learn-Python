@@ -276,3 +276,14 @@
 
 
 
+#Function + List
+
+# def square_list(numbers):
+#     return [n*n for n in numbers]
+
+# nums = [1,2,3,4]
+
+# result  = square_list(nums)
+# print(result)
+
+
