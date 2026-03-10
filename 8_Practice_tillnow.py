@@ -234,9 +234,45 @@
 
 #Error Safe input
 
-try:
-    number = int(input("Enter a number: "))
-    print("Number is: ", number)
+# try:
+#     number = int(input("Enter a number: "))
+#     print("Number is: ", number)
 
-except ValueError:
-    print("Invalid Number")
+# except ValueError:
+#     print("Invalid Number")
+
+
+
+
+
+
+
+
+
+
+
+#Number Frequency Counter
+
+# numbers = [1,2,2,3,3,3,4]
+
+
+# freq = {}
+
+# for n in numbers:
+#     if n in freq:
+#         freq[n] += 1
+#     else:
+#         freq[n] = 1
+
+# for key, value in freq.items():
+#     print(key, "->", value)
+
+
+
+
+
+
+
+
+
+
