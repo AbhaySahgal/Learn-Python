@@ -287,3 +287,27 @@
 # print(result)
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+#Student File Writer
+
+# name = input("Enter name: ")
+# age = input("Enter age: ")
+# marks = input("Enter marks: ")
+
+# with open("Students.txt", 'w') as file:
+#     file.write(f"name: {name}\n") 
+#     file.write(f"age: {age}\n") 
+#     file.write(f"marks: {marks}\n")
+
+# print("Student file created")
