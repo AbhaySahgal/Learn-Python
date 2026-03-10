@@ -187,16 +187,56 @@
 
 #Solution
 
-shoppinglist = []
+# shoppinglist = []
 
-for i in range(5):
-    item =  input("Enter items: ")
-    shoppinglist.append(item)
+# for i in range(5):
+#     item =  input("Enter items: ")
+#     shoppinglist.append(item)
 
-shoppinglist.sort()
+# shoppinglist.sort()
 
-print("Shopping list: ")
+# print("Shopping list: ")
 
-for item in shoppinglist:
-    print(item)
+# for item in shoppinglist:
+#     print(item)
 
+
+
+
+
+
+
+
+
+
+
+
+#Top Student Finder
+
+# students = [
+#  {"name":"Abhay","marks":90},
+#  {"name":"Rahul","marks":70},
+#  {"name":"Neha","marks":85}
+# ]
+
+# top_student = students[0]
+
+# for s in students:
+#     if s["marks"] > top_student["marks"]:
+#         top_student = s
+# print("Top student", top_student["name"])
+
+
+
+
+
+
+
+#Error Safe input
+
+try:
+    number = int(input("Enter a number: "))
+    print("Number is: ", number)
+
+except ValueError:
+    print("Invalid Number")
