@@ -55,3 +55,52 @@ print(a - b)
 
 
 
+
+
+
+
+
+#Task-1
+
+print("\nTask-1")
+
+nums = [5,5,6,7,7,8,9]
+
+exp = set(nums)
+
+print(exp)
+
+
+
+
+
+
+
+#Task-2
+print("\nTask-2")
+
+list1 = [1,2,3,4]
+list2 = [3,4,5,6]
+
+exp = set(list1) & set(list2)
+
+print(exp)
+
+
+
+
+
+
+
+
+
+#Unique Word Finder
+print("\nUnique Word Finder")
+
+
+sentence = "Python is fun and python is powerful"
+
+unq = set(sentence.split())
+
+print(unq)
+
