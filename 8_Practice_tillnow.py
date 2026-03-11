@@ -326,13 +326,24 @@
 
 #Vowel Count
 
-sentence = input("Enter Sentence: ")
+# sentence = input("Enter Sentence: ")
 
-vowels = "aeiou"
-count = 0
+# vowels = "aeiou"
+# count = 0
 
-for char in sentence:
-    if char.lower() in vowels:
-        count += 1
+# for char in sentence:
+#     if char.lower() in vowels:
+#         count += 1
 
-print("Vowels in sentence: ", count)
+# print("Vowels in sentence: ", count)
+
+
+
+
+
+
+
+
+
+
+
