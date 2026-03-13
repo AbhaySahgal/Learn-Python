@@ -19,13 +19,13 @@
 #replace() - replace part of string
 
 
-name = "    Abhay   "
-print(name.strip())
+# name = "    Abhay   "
+# print(name.strip())
 
-text = "Python"
+# text = "Python"
 
-print(text.lower())
-print(text.upper())
+# print(text.lower())
+# print(text.upper())
 
 #use case- 
 # user = input("Enter yes/no: ")
@@ -34,9 +34,73 @@ print(text.upper())
 #     print("Confirmed")
 
 
-words = ["python","is","fun"]
-sentence = " ".join(words)
-print(sentence)
+# words = ["python","is","fun"]
+# sentence = " ".join(words)
+# print(sentence)
+# print(sentence.replace("python", "java"))
+
+
+
+
+
+#Checking Text
+# isalpha()
+# isdigit()
+# isalnum()
+
+#String Formatting - (f-strings)
+
+# name = "Nigga"
+# age = 23
+
+# print(f"My name is {name} and age is {age}")
+
+
+
+
+
+
+#Task-1
+
+# sentence = input("Enter the sentence: ")
+
+# words = sentence.split()
+
+# print(f"Number of words: ", len(words))
+
+
+
+
+
+
+
+
+#Task-2
+
+# sentence = "Python makes coding easy"
+# cap = sentence.upper()
+# words = cap.split()
+# print(words)
+
+
+
+
+
+
+
+
+#Mini Project
+username = "    Abhay_123   "
+fix = username.strip()
+low = fix.lower()
+print(low)
+
+
+
+
+
+
+
 
 
 
