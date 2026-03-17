@@ -32,19 +32,38 @@
 
 #Task-2
 
-class Animal:
-    def __init__(self, name):
-        self.name = name
+# class Animal:
+#     def __init__(self, name):
+#         self.name = name
 
-class Dog(Animal):
+# class Dog(Animal):
 
-    def __init__(self, name, breed):
-        self.name = name
-        self.breed = breed
+#     def __init__(self, name, breed):
+#         self.name = name
+#         self.breed = breed
     
-    def show(self):
-        print("name: ", self.name)
-        print("Breed: ", self.breed)
+#     def show(self):
+#         print("name: ", self.name)
+#         print("Breed: ", self.breed)
 
-m1 = Dog("Tommy", "labrador")
-m1.show()
+# m1 = Dog("Tommy", "labrador")
+# m1.show()
+
+
+
+#Task-3
+
+class Vehical:
+
+    def start(self):
+        print("Vehical Started")
+
+class Car(Vehical):
+
+    def show_type(self):
+        print("This is a Car")
+
+c1 = Car()
+
+c1.start()  # parent method
+c1.show_type() # child method
