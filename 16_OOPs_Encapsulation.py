@@ -4,59 +4,47 @@
 
 #Binding data + behavior tohgether and restricting uncontrolled access.
 
-#Inhertance - code reuse + logical Hierarchy
+#Inhertance - code reuse + logical Hierarchy - Child class uses features of parent class
 
 
 #Task-1
-#Secure Bank System
+
+# class Mobile:
+
+#     def __init__(self, price):
+#         self.__price = price
+
+#     def set_price(self, new_price):
+#         self.set_price = new_price
+    
+#     def get_price(self):
+#         return self.__price
+    
+# m1 = Mobile(2000)
+
+# print("Price: ", m1.get_price())
+
+# m1.set_price(2500)
+
+# print("Updated price: ", m1.get_price())
 
 
-class BankAccount:
 
-    def __init__(self, name, balance=0):
+#Task-2
+
+class Animal:
+    def __init__(self, name):
         self.name = name
-        self.__balance = balance   # private variable
 
-    def deposit(self, amount):
-        if amount <= 0:
-            print("Invalid deposit amount")
-            return
-        self.__balance += amount
-        print(f"{amount} deposited. New balance: {self.__balance}")
+class Dog(Animal):
 
-    def withdraw(self, amount):
-        if amount <= 0:
-            print("Invalid withdraw amount")
-            return
-        if amount > self.__balance:
-            print("Insufficient balance")
-            return
-        self.__balance -= amount
-        print(f"{amount} withdrawn. Remaining balance: {self.__balance}")
+    def __init__(self, name, breed):
+        self.name = name
+        self.breed = breed
+    
+    def show(self):
+        print("name: ", self.name)
+        print("Breed: ", self.breed)
 
-    def transfer(self, other_account, amount):
-        if amount <= 0:
-            print("Invalid transfer amount")
-            return
-        if amount > self.__balance:
-            print("Transfer failed: insufficient balance")
-            return
-
-        self.__balance -= amount
-        other_account.__balance += amount
-        print(f"{amount} transferred from {self.name} to {other_account.name}")
-
-    def show_balance(self):
-        print(f"{self.name} Balance:", self.__balance)
-
-
-# Creating accounts
-a1 = BankAccount("Abhay", 1000)
-a2 = BankAccount("Rahul", 500)
-
-a1.deposit(200)
-a1.withdraw(300)
-a1.transfer(a2, 400)
-
-a1.show_balance()
-a2.show_balance()
+m1 = Dog("Tommy", "labrador")
+m1.show()
