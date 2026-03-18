@@ -93,3 +93,47 @@
 
 
 
+
+# Task 2 — Class Variable
+# Create class Employee
+
+# company = "TCS"
+
+# name (instance)
+
+# Print company using both objects.
+
+
+#Solution -
+
+# class Employee:
+    
+
+#     company = "TCS"
+
+#     def __init__(self, name):
+#         self.name = name
+
+# s1 = Employee("Abhay")
+# s2 = Employee("Mukesh")
+
+# print(f"Name: {s1.name}, Company: {Employee.company}")
+# print(f"Name: {s2.name}, Company: {Employee.company}")
+
+
+
+
+
+# Task 3 — Static Method
+# Create class Calculator
+
+# static method square(num)
+
+# Print square of 5.
+
+
+
+
+
+
+
