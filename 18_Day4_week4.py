@@ -60,3 +60,36 @@
 #call using class name
 
 
+
+
+
+
+
+
+# Task 1 — Instance Variable
+# Create class Car
+
+# brand
+
+# speed
+
+# Create 2 objects and print values.
+
+
+#Solution -
+
+# class Car:
+#     def __init__(self, brand, speed):
+#         self.brand = brand
+#         self.speed = speed
+
+# s1 = Car("BMW", 400)
+# s2 = Car("Audi", 300)
+
+# print(s1.brand, s1.speed)
+# print(s2.brand, s2.speed)
+
+
+
+
+
