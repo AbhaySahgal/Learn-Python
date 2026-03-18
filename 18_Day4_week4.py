@@ -131,9 +131,14 @@
 
 # Print square of 5.
 
+#Solution -
 
+class Calculator:
 
+    @staticmethod
+    def square(a):
+        return a ** 2
+    
 
-
-
+print("Square of a is:", Calculator.square(5))
 
