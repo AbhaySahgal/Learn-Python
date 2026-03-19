@@ -133,12 +133,79 @@
 
 #Solution -
 
-class Calculator:
+# class Calculator:
 
-    @staticmethod
-    def square(a):
-        return a ** 2
+#     @staticmethod
+#     def square(a):
+#         return a ** 2
     
 
-print("Square of a is:", Calculator.square(5))
+# print("Square of a is:", Calculator.square(5))
+
+
+
+
+
+# Task 4 — Mixed Concept
+# Create class Student
+
+# class variable → school
+
+# instance → name, marks
+
+# static method → is_pass(marks) → return True/False
+
+# Test with object.
+
+#Solution -
+
+class Student:
+    
+    school = "ABC school"
+
+    def __init__(self, name, marks):
+        self.name =  name
+        self.marks = marks
+    
+    @staticmethod
+    def is_pass(marks):
+        if marks > 60:
+            return "Pass"
+        else:
+            return "Fail"
+    
+s1 = Student("Abhay", 90)
+s2 = Student("Abhi", 85)
+s3 = Student("Mukesh", 59)
+
+print(s1.name, Student.school, Student.is_pass(s1.marks))
+print(s2.name, Student.school, Student.is_pass(s2.marks))
+print(s3.name, Student.school, Student.is_pass(s3.marks))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
